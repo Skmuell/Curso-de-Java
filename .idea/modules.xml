@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Estrutura Condicional/Estrutura Condicional.iml" filepath="$PROJECT_DIR$/Estrutura Condicional/Estrutura Condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura Sequencial/Estrutura Sequencial.iml" filepath="$PROJECT_DIR$/Estrutura Sequencial/Estrutura Sequencial.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cursoJava.iml" filepath="$PROJECT_DIR$/.idea/cursoJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estruturaSequencial/estruturaSequencial.iml" filepath="$PROJECT_DIR$/estruturaSequencial/estruturaSequencial.iml" />
     </modules>
   </component>
 </project>
