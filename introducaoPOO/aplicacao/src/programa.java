@@ -6,23 +6,24 @@ public class programa {
 
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
-        double xA, xB, xC, yA, yB, yC;
+        Triangulo x, y;
+        x = new Triangulo();
+        y = new Triangulo();
 
         System.out.println("Digite os dados X do triangulo : ");
-        xA = scanner.nextDouble();
-        xB = scanner.nextDouble();
-        xC = scanner.nextDouble();
+        x.a = scanner.nextDouble();
+        x.b = scanner.nextDouble();
+        x.c = scanner.nextDouble();
 
         System.out.println("Digite os dados Y do triangulo");
-        yA = scanner.nextDouble();
-        yB = scanner.nextDouble();
-        yC = scanner.nextDouble();
+        y.a = scanner.nextDouble();
+        y.b = scanner.nextDouble();
+        y.c = scanner.nextDouble();
 
-        double p = (xA + xB + xC) / 2.0;
-        double areaX = Math.sqrt(p * (p - xA) * (p - xB) * (p - xC));
 
-        p = (yA + yB + yC) / 2.0;
-        double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
+        double areaX = x.area();
+
+        double areaY = y.area();
 
         System.out.printf("Area do triangulo X: %.4f%n", areaX);
         System.out.printf("Area do triangulo Y: %.4f%n",areaY);
